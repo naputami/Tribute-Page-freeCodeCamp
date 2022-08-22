@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ki Hadjar Dewantara Tribute Page" />
+    <title>Ki Hajar Dewantara</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Ki Hadjar Dewantara</h1>
+      <nav>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Ki_Hajar_Dewantara" target="_blank">Wikipedia</a></li>
+          <li> <a href="https://www.britannica.com/biography/Ki-Hadjar-Dewantoro" target="_blank">Britannica</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+        <div class="container1">
+        <figure id="img-div">
+          <a href="https://1001indonesia.net/asset/2016/05/Ki-Hajar-Dewantara.jpg" id="tribute-link" target="_blank"><img id="image" src="https://1001indonesia.net/asset/2016/05/Ki-Hajar-Dewantara.jpg" alt="portrait of Ki Hadjar Dewantara"></a>
+          <figcaption id="img-caption">
+            Portrait of Ki Hadjar Dewantara
+          </figcaption>
+        </figure>
+          <div id="tribute-info">
+          <h2>About</h2>
+          <p>Ki Hadjar Dewantoro, Dewantoro also spelled Dewantara, original name Raden Mas (Lord) Suwardi Surjaningrat, (born May 2, 1889, Yogyakarta, Java, Dutch East Indies [now Indonesia]—died April 26, 1959, Yogyakarta), founder of the Taman Siswa (literally “Garden of Students”) school system, an influential and widespread network of schools that encouraged modernization but also promoted indigenous Indonesian culture. Ki hadjar Dewantara was first Minister of National Education of the Republic of Indonesia</p>
+      </div>
+      </div>
+      <h2 id="gal-title">Gallery</h2>
+      <div id="gallery">
+        <img src="https://www.sejarahone.id/wp-content/uploads/2020/03/Ki-Hajar-Dewantara-dengan-Istri.jpg" alt="ki hadjar dewantara and his wife">
+        <img src="http://www.pengetahuan.id/wp-content/uploads/2022/06/ki-hajar-dewantara.jpg" alt="ki hadjar dewantara is reading book">
+        <img src="https://www.sejarahone.id/wp-content/uploads/2021/09/kihajar.png" alt="ki hadjar dewantara and his students">
+        <img src="https://imgsrv2.voi.id/xumG1V5b0i-eXFxSlTsEz8FHRsNTdfjRXCDqCE_sF9U/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8xNjE4MTQvMjAyMjA0MjYwNjQ1LW1haW4uanBn.jpg" alt="ki hadjar dewantara in his office">
+        <img src="https://indonesianembassy.de/wp-content/uploads/2020/05/Ki-Hadjar-Dewantara-2.jpg" alt="ki hadjar dewantara in front of his students">
+      </div>
+      <footer>
+          <p>Designed by @naputami</p>
+          <div id="logo">
+            <a href="https://github.com/naputami" target="_blank"><img src="https://pngimg.com/uploads/github/github_PNG40.png"></a>
+            <a href="https://id.linkedin.com/in/nadiapujiutami" target="_blank"><img src="https://logospng.org/download/linkedin/logo-linkedin-icon-1536.png"></a>
+            </div>
+      </footer>
+    </main>
+  </body>
+</html>
