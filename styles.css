@@ -1,6 +1,6 @@
 body {
   font-family: Tahoma;
-  margin: 0;
+  margin-left: 0;
 }
 * { 
   box-sizing: border-box; 
@@ -10,7 +10,7 @@ h1 {
   font-size: min(50vw, 1.5em);
 }
 main{
-  margin: 0 20px;
+  margin: 0 auto;
 }
 
 #image {
@@ -23,7 +23,7 @@ main{
 }
 
 #img-div {
-  margin-left: 0;
+  margin: 0 auto;
   max-width: 400px;
 }
 
@@ -105,34 +105,33 @@ li > a {
 
 .container1 {
   margin-top: 100px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: nowrap;
-  align-content: space-between;
-  margin-left: 1%;
   padding-left: 10px;
-  padding-right: 50px;
+  padding-right: 20px;
 }
 
 #tribute-info{
   width: 100%;
   height: auto;
-  padding: 5px 10px;
-  flex-shrink: 1;
+  padding: 5px 2px;
+  margin: 10px auto;
+}
+
+#tribute-info p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#tribute-info a {
+  color: black;
 }
 
 #gallery {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  align-content: space-between;
   margin: 0 auto;
   padding: 20px 10px;
 }
 
 #gallery img{
-  max-width: 270px;
+  max-width: 480px;
   width: 100%;
   height: auto;
   margin: 0.3rem;
@@ -142,4 +141,32 @@ li > a {
 
 #gal-title {
   margin: 20px 20px;
+}
+
+@media (min-width: 460px) {
+.container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  }
+#gallery{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: space-between;
+}
+#gallery img {
+  max-width: 275px;
+}
+#tribute-info {
+  margin-left: 2rem;
+}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
 }
