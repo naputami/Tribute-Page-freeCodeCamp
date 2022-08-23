@@ -131,7 +131,7 @@ li > a {
 }
 
 #gallery img{
-  max-width: 480px;
+  max-width: 375px;
   width: 100%;
   height: auto;
   margin: 0.3rem;
@@ -140,7 +140,7 @@ li > a {
 }
 
 #gal-title {
-  margin: 40px 20px 5px 20px;
+ margin: 30px 20px 5px 15px;
 }
 
 @media (min-width: 460px) {
@@ -163,6 +163,10 @@ li > a {
 #tribute-info {
   margin-left: 2rem;
 }
+#gal-title {
+  margin: 40px 20px 5px 15px;
+}
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
